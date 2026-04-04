@@ -19,7 +19,7 @@ interface Pillar {
           <h2 class="section-title">Our Mission</h2>
           <p class="section-sub">
             Empowering healthcare providers with intelligent tools to improve patient
-            outcomes and streamline diagnostic workflows. We focus on three core pillars:
+            outcomes and streamline diagnostic workflows. We focus on these core pillars:
           </p>
         </div>
 
@@ -140,39 +140,27 @@ interface Pillar {
 export class MissionComponent {
   pillars: Pillar[] = [
     {
-      icon: `<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M11 2C6.03 2 2 6.03 2 11s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm0 4a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 12.2a7.2 7.2 0 0 1-5.4-2.44C5.62 14.28 8.16 13 11 13s5.38 1.28 5.4 2.76A7.2 7.2 0 0 1 11 18.2z" fill="currentColor"/>
-      </svg>`,
+      icon: '<img src="./assets/images/access.png" alt="accessibility icon" width="48" height="48" />',
       title: 'Accessibility',
       desc: 'Bringing advanced diagnostics to remote and underserved areas across the continent.',
-      color: '#0060d1'
+      color: '#7c3aedcb'
     },
     {
-      icon: `<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="11" cy="11" r="9" stroke="currentColor" stroke-width="2"/>
-        <path d="M11 7v4l3 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        <path d="M7 11h8M11 7v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
-      </svg>`,
+      icon: '<img src="./assets/images/innovation.png" alt="innovation icon" width="48" height="48"/>',
       title: 'Innovation',
       desc: 'Pioneering new AI models specifically tailored for diverse healthcare challenges across Africa.',
-      color: '#7c3aed'
+      color: '#7c3aedcb'
     },
     {
-      icon: `<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M11 2L3 6v5c0 4.42 3.4 8.56 8 9.6 4.6-1.04 8-5.18 8-9.6V6L11 2z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" fill="none"/>
-        <path d="M8 11l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>`,
+      icon: '<img src="./assets/images/precision.png" alt="precision icon" width="48" height="48" />',
       title: 'Precision',
       desc: 'Ensuring the highest standards of accuracy in diagnostic results through rigorous clinical validation.',
       color: '#00c4b4'
     },
     {
-      icon: `<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M11 2L3 6v5c0 4.42 3.4 8.56 8 9.6 4.6-1.04 8-5.18 8-9.6V6L11 2z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" fill="none"/>
-        <path d="M8 11l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>`,
-      title: 'Precision',
-      desc: 'Ensuring the highest standards of accuracy in diagnostic results through rigorous clinical validation.',
+      icon: '<img src="./assets/images/impact.png" alt="impact icon" width="48" height="48" />',
+      title: 'Impact',
+      desc: 'We ensure that we create tools that bring positive impact to the communities we partner and work with.',
       color: '#00c4b4'
     }
   ];

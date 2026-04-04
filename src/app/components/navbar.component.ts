@@ -9,8 +9,8 @@ import { CommonModule } from '@angular/common';
     <nav class="navbar" [class.scrolled]="isScrolled()">
       <div class="nav-container">
 
-        <a class="logo-icon" href="#hero">
-          <img src="assets/images/logo-g.png" alt="Kuphila-AI logo" class="logo-img"/>
+        <a class="logo-link" href="#home">
+          <img src="assets/images/logo.png" alt="Kuphila-AI logo" class="logo-img"/>
         </a>
 
         <ul class="nav-links" [class.open]="menuOpen()">
@@ -55,16 +55,14 @@ import { CommonModule } from '@angular/common';
     }
 
     .logo-icon {
-      position: sticky;
-      width: 320px;
-      height: 60px;
+      position: relative;
       overflow: hidden;
     }
 
     .logo-img {
-      align-self: center;
-      width: 280px;
-      height: 60px;
+      align-self: baseline;
+      width: 150px;
+      height: auto;
       object-fit: cover;
     }
 

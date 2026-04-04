@@ -169,7 +169,7 @@ export class TeamComponent {
       name: 'Yusupha Ceesay',
       role: 'CRO',
       title: 'Chief Relationship Officer',
-      image: 'assets/images/dr-amara.svg',
+      image: 'assets/images/yusupha.jpeg',
       socials: {}
     },
     {
@@ -190,21 +190,21 @@ export class TeamComponent {
       name: 'Simeon Krah',
       role: 'HDA',
       title: 'Data Scientist',
-      image: 'assets/images/marcus-zulu.svg',
+      image: 'assets/images/simeon.jpeg',
       socials: {}
     },
     {
       name: 'Khanyisile Tapiwa',
       role: 'HAE',
       title: 'AI Engineer',
-      image: 'assets/images/sarah-juma.svg',
+      image: 'assets/images/khanyi.jpeg',
       socials: {}
     },
     {
       name: 'John William Muga',
-      role: 'HTO',
+      role: 'CTO',
       title: 'Chief Technical Officer',
-      image: 'assets/images/david-chen.svg',
+      image: 'assets/images/william.jpg',
       socials: {}
     }
   ];
