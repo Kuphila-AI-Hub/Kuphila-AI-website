@@ -7,7 +7,7 @@
 
 Our primary focus is the development of accessible, high-accuracy diagnostic solutions, such as **CerviPredict**, which utilizes Computer Vision and Large Multimodal Models (VLMs) like **MedGemma** for automated cervical cancer screening.
 
------
+
 
 ## 🚀 Key Features
 
@@ -16,7 +16,7 @@ Our primary focus is the development of accessible, high-accuracy diagnostic sol
   * **Modern UI/UX:** Clean, medical-grade interface using *Plus Jakarta Sans* and *DM Serif Display* typography.
   * **SEO Optimized:** Integrated Open Graph tags and Structured Data (JSON-LD) for better search engine visibility.
 
------
+
 
 ## 💻 Getting Started
 
@@ -50,7 +50,7 @@ Ensure you have the following installed on your local machine:
 
     Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
------
+
 
 ## 📁 Project Structure
 
@@ -63,7 +63,7 @@ src/
 └── styles.scss         # Global styles and theme variables
 ```
 
------
+
 
 ## 🧪 Testing & Build
 
@@ -77,7 +77,7 @@ src/
     ng test
     ```
 
------
+
 
 ## 🤝 Contributing
 
@@ -89,7 +89,7 @@ We welcome contributions from researchers, developers, and healthcare profession
 4.  Push to the Branch (`git push origin feature/AmazingFeature`).
 5.  Open a Pull Request.
 
------
+
 
 ## 📄 License
 
