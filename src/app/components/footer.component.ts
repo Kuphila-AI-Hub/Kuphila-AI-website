@@ -8,28 +8,26 @@ import { Component } from '@angular/core';
       <div class="footer-main">
         <div class="footer-container">
           <div class="footer-brand">
-            <a class="footer-logo" href="#">
+            <a class="footer-logo" href="#home">
               <div class="logo-icon">
-                <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-                  <rect width="28" height="28" rx="7" fill="#0060d1"/>
-                  <path d="M7 14 L11 10 L14 14 L17 8 L21 14" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-                  <circle cx="21" cy="14" r="2" fill="#00c4b4"/>
-                </svg>
+                <img src="./assets/images/logo-white.png" alt="Kuphila icon" width="160" height="auto" />
               </div>
-              <span>KUPHILA <strong>AI</strong></span>
             </a>
             <p class="brand-desc">
               Pioneering the future of medicine with ethical, accurate, and accessible
               artificial intelligence for all.
             </p>
             <div class="social-links">
-              <a href="#" aria-label="LinkedIn" class="social-btn">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                </svg>
+              <a href="https://www.linkedin.com/company/kuphila-ai" aria-label="LinkedIn" class="social-btn" target="_blank">
+                <img src="./assets/images/linkedin.png" alt="LinkedIn" width="28" height="28" />
               </a>
+
+                <a href="https://huggingface.co/KuphilaAI" aria-label="Hugging Face" class="social-btn" target="_blank">
+                  <img src="./assets/images/hug.png" alt="Hugging Face" width="28" height="28" />
+                </a>
+              </div>
             </div>
-          </div>
+          
 
           <div class="footer-nav">
             <div class="nav-col">
@@ -257,4 +255,4 @@ import { Component } from '@angular/core';
     }
   `]
 })
-export class FooterComponent {}
+export class FooterComponent { }

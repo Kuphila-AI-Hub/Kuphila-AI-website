@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
       <div class="hero-container">
         <div class="hero-content">
           <span class="badge">
-            <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-              <circle cx="6" cy="6" r="5" stroke="#0060d1" stroke-width="1.5"/>
-              <circle cx="6" cy="6" r="2" fill="#0060d1"/>
+            <svg width="8" height="8" viewBox="0 0 8 8" fill="none">
+              <circle cx="4" cy="4" r="4" stroke="#0060d1" stroke-width="1"/>
+              <circle cx="4" cy="4" r="2" fill="#0060d1"/>
             </svg>
             AI-Powered Healthcare
           </span>
@@ -18,8 +18,8 @@ import { Component } from '@angular/core';
           <h2 class="hero-title">
             Advancing Healthcare<br>
             through
-            <span class="highlight"> AI</span><br>
-            <em class="accent-word">Powered Applications</em>
+            <span class="highlight"> AI - </span>
+            <em class="accent-word"> Powered <br>Applications</em>
           </h2>
 
           <p class="hero-desc">
@@ -44,8 +44,8 @@ import { Component } from '@angular/core';
             </div>
             <div class="stat-divider"></div>
             <div class="stat">
-              <span class="stat-num">--</span>
-              <span class="stat-label">Partner Clinics</span>
+              <span class="stat-num">01</span>
+              <span class="stat-label">Partners</span>
             </div>
             <div class="stat-divider"></div>
             <div class="stat">
@@ -93,7 +93,7 @@ import { Component } from '@angular/core';
   styles: [`
     .hero {
       min-height: 100vh;
-      padding-top: 68px;
+      padding-top: 64px;
       background: linear-gradient(135deg, #f0f6ff 0%, #ffffff 40%, #e8f6f5 100%);
       position: relative;
       overflow: hidden;
@@ -101,8 +101,8 @@ import { Component } from '@angular/core';
       &::before {
         content: '';
         position: absolute;
-        top: -100px; right: -100px;
-        width: 600px; height: 600px;
+        top: -120px; right: -120px;
+        width: 500px; height: 500px;
         background: radial-gradient(circle, rgba(0,96,209,0.07) 0%, transparent 70%);
         border-radius: 50%;
         pointer-events: none;
@@ -122,15 +122,15 @@ import { Component } from '@angular/core';
     .hero-container {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 30px 0px 20px;
+      padding-left: 28px;
       display: grid;
       grid-template-columns: 1fr 1fr;
       align-items: center;
-      gap: 60px;
+      gap: 20px;
     }
 
     .hero-content {
-      animation: fadeInLeft 1s ease both;
+      animation: fadeInLeft 1.45s ease both;
     }
 
     @keyframes fadeInLeft {
@@ -141,25 +141,24 @@ import { Component } from '@angular/core';
     .badge {
       display: inline-flex;
       align-items: center;
-      gap: 8px;
-      padding: 6px 14px;
+      gap: 4px;
+      padding: 4px 8px;
       background: rgba(0,96,209,0.08);
       border: 1px solid rgba(0,96,209,0.18);
       border-radius: 99px;
-      font-size: 12px;
-      font-weight: 600;
+      font-size: 8px;
+      font-weight: 400;
       color: var(--primary);
       letter-spacing: 0.04em;
       text-transform: uppercase;
-      margin-bottom: 15px;
+      margin: 30px;
     }
 
     .hero-title {
-      font-size: clamp(32px, 5vw, 52px);
-      font-weight: 600;
+      font-size: clamp(26px, 4vw, 46px);
+      font-weight: 400;
       color: var(--text-dark);
-      margin-bottom: 10px;
-      line-height: 1.1;
+      line-height: 1;
 
       .highlight {
         color: var(--primary);
@@ -170,16 +169,16 @@ import { Component } from '@angular/core';
         font-style: italic;
         color: var(--accent);
         font-weight: 400;
-        font-size: clamp(38px, 5.5vw, 60px);
+        font-size: clamp(32px, 4vw, 54px);
       }
     }
 
     .hero-desc {
-      font-size: 16px;
-      line-height: 1.7;
+      font-size: 14px;
+      line-height: 1.4;
       color: var(--text-mid);
       max-width: 480px;
-      margin-bottom: 36px;
+      margin: 36px 0 36px;
     }
 
     .hero-actions {
@@ -241,20 +240,20 @@ import { Component } from '@angular/core';
     }
 
     .stat-num {
-      font-size: 24px;
+      font-size: 20px;
       font-weight: 800;
       color: var(--primary);
       letter-spacing: -0.03em;
     }
 
     .stat-label {
-      font-size: 12px;
+      font-size: 10px;
       color: var(--text-light);
       font-weight: 500;
     }
 
     .stat-divider {
-      width: 1px;
+      width: 2px;
       height: 36px;
       background: var(--border);
     }
@@ -262,7 +261,7 @@ import { Component } from '@angular/core';
     /* Visual side */
     .hero-visual {
       position: relative;
-      animation: fadeInRight 0.7s 0.15s ease both;
+      animation: fadeInRight 0.10s 0.15s ease both;
     }
 
     @keyframes fadeInRight {
@@ -274,8 +273,10 @@ import { Component } from '@angular/core';
       position: relative;
       border-radius: var(--radius-lg);
       overflow: hidden;
+      width: 560px;
+      height: 420px;
       box-shadow: var(--shadow-lg);
-      aspect-ratio: 480/420;
+      aspect-ratio: 440/420;
       background: #001020;
     }
 
@@ -287,12 +288,12 @@ import { Component } from '@angular/core';
 
     .frame-deco {
       position: absolute;
-      width: 60px; height: 60px;
+      width: 40px; height: 40px;
       border: 3px solid var(--primary);
       opacity: 0.4;
 
       &--tl {
-        top: 16px; left: 16px;
+        top: 14px; left: 14px;
         border-right: none; border-bottom: none;
         border-radius: 4px 0 0 0;
       }
@@ -309,7 +310,7 @@ import { Component } from '@angular/core';
       display: flex;
       align-items: center;
       gap: 10px;
-      padding: 12px 18px;
+      padding: 10px 14px;
       background: white;
       border-radius: var(--radius-sm);
       box-shadow: var(--shadow-md);
@@ -323,21 +324,21 @@ import { Component } from '@angular/core';
       }
 
       &.card-bottom {
-        bottom: 52px;
-        right: -28px;
+        bottom: 44px;
+        right: -32px;
         animation-delay: 1.5s;
       }
 
       .card-val {
-        font-size: 15px;
-        font-weight: 700;
+        font-size: 10px;
+        font-weight: 400;
         color: var(--text-dark);
       }
 
       .card-lbl {
-        font-size: 11px;
+        font-size: 10px;
         color: var(--text-light);
-        font-weight: 500;
+        font-weight: 400;
       }
     }
 

@@ -143,38 +143,24 @@ interface Service {
 export class ServicesComponent {
   services: Service[] = [
     {
-      icon: `<svg width="22" height="22" viewBox="0 0 22 22" fill="none">
-        <rect x="2" y="3" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.8"/>
-        <path d="M6 13 L8.5 10 L11 13 L13.5 8 L16 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>`,
+      icon: '<img src="./assets/images/diagnostic.png" alt="diagnostic icon" width="38" height="38"/>',
       title: 'Diagnostic AI',
       desc: 'Automated screening tools for radiology and pathology images with near-perfect accuracy.'
     },
     {
-      icon: `<svg width="22" height="22" viewBox="0 0 22 22" fill="none">
-        <rect x="3" y="3" width="4" height="16" rx="1" fill="currentColor" opacity="0.5"/>
-        <rect x="9" y="7" width="4" height="12" rx="1" fill="currentColor" opacity="0.7"/>
-        <rect x="15" y="10" width="4" height="9" rx="1" fill="currentColor"/>
-      </svg>`,
+      icon: '<img src="./assets/images/analysis.png" alt="analysis icon" width="38" height="38"/>',
       title: 'Data Analysis',
       desc: 'Deep health data insights to uncover population trends and optimize care delivery.'
     },
     {
-      icon: `<svg width="22" height="22" viewBox="0 0 22 22" fill="none">
-        <rect x="3" y="5" width="16" height="12" rx="2" stroke="currentColor" stroke-width="1.8"/>
-        <circle cx="11" cy="11" r="3" stroke="currentColor" stroke-width="1.5"/>
-        <path d="M15 5 L19 2M7 5 L3 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-      </svg>`,
+      icon: '<img src="./assets/images/telemedicine.png" alt="telemedicine icon" width="38" height="38"/>',
       title: 'Telemedicine',
       desc: 'Seamless remote consulting with integrated AI assistants for accurate, instant guidance.'
     },
     {
-      icon: `<svg width="22" height="22" viewBox="0 0 22 22" fill="none">
-        <path d="M11 3L3 7V12C3 16.4 6.6 20.5 11 21.5C15.4 20.5 19 16.4 19 12V7L11 3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
-        <path d="M8 11L10 13L14 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>`,
+      icon: '<img src="./assets/images/predictive.png" alt="predictive icon" width="38" height="38"/>',
       title: 'Predictive Analytics',
-      desc: 'Early disease detection using longitudinal health markers for proactive healthcare.'
+      desc: 'Early disease detection using longitudinal health markers for proactive healthcare.',
     }
   ];
 }
