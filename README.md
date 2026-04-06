@@ -99,6 +99,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 **Kuphila AI Team** LinkedIn: [Kuphila AI](https://www.linkedin.com/company/kuphila-ai)  
 Hugging Face: [KuphilaAI](https://huggingface.co/KuphilaAI)  
-Website: [kuphila.ai](https://www.google.com/search?q=https://kuphila.ai)
+Website: [kuphila.ai](https://www.google.com/search?q=https://kuphilaai.vercel.app)
 Email: (kuphilaaihub26@gmail.com)
 
