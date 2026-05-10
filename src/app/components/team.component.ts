@@ -165,6 +165,13 @@ interface TeamMember {
 })
 export class TeamComponent {
   team: TeamMember[] = [
+      {
+      name: 'Dr. Thomas Kitavi',
+      role: 'DE',
+      title: 'Domain Expert',
+      image: 'assets/images/tom.jpg',
+      socials: {}
+    },
     {
       name: 'John William Muga',
       role: 'CEO',
@@ -205,13 +212,6 @@ export class TeamComponent {
       role: 'RL',
       title: 'Research Lead',
       image: 'assets/images/simeon.jpeg',
-      socials: {}
-    },
-    {
-      name: 'Dr. Thomas Kitavi',
-      role: 'DE',
-      title: 'Domain Expert',
-      image: 'assets/images/tom.jpg',
       socials: {}
     }
     
