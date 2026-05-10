@@ -165,47 +165,56 @@ interface TeamMember {
 })
 export class TeamComponent {
   team: TeamMember[] = [
+      {
+      name: 'Dr. Thomas Kitavi',
+      role: 'DE',
+      title: 'Domain Expert',
+      image: 'assets/images/tom.jpg',
+      socials: {}
+    },
+    {
+      name: 'John William Muga',
+      role: 'CEO',
+      title: 'Chief Executive Officer',
+      image: 'assets/images/william.jpg',
+      socials: {}
+    },
     {
       name: 'Yusupha Ceesay',
-      role: 'CRO',
-      title: 'Chief Relationship Officer',
+      role: 'CTO',
+      title: 'Chief Technical Officer',
       image: 'assets/images/yusupha.jpeg',
       socials: {}
     },
     {
       name: 'Edna Mugo',
-      role: 'HMD',
-      title: 'Mobile Developer',
+      role: 'LSE',
+      title: 'Lead Software Engineer',
       image: 'assets/images/edna-img.png',
       socials: {}
     },
     {
+      name: 'Khanyisile Tapiwa',
+      role: 'LAE',
+      title: 'Lead AI Engineer',
+      image: 'assets/images/khanyi.jpeg',
+      socials: {}
+    },
+    {
       name: 'Lorraine Chepkemoi',
-      role: 'HPD',
+      role: 'PM',
       title: 'Project Manager',
       image: 'assets/images/lorraine-img.jpg',
       socials: {}
     },
     {
       name: 'Simeon Krah',
-      role: 'HDA',
-      title: 'Data Scientist',
+      role: 'RL',
+      title: 'Research Lead',
       image: 'assets/images/simeon.jpeg',
       socials: {}
-    },
-    {
-      name: 'Khanyisile Tapiwa',
-      role: 'HAE',
-      title: 'AI Engineer',
-      image: 'assets/images/khanyi.jpeg',
-      socials: {}
-    },
-    {
-      name: 'John William Muga',
-      role: 'CTO',
-      title: 'Chief Technical Officer',
-      image: 'assets/images/william.jpg',
-      socials: {}
     }
+    
+    
   ];
 }

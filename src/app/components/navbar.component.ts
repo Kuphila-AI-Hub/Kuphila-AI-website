@@ -29,14 +29,14 @@ import { CommonModule } from '@angular/common';
       position: fixed;
       top: 0; left: 0; right: 0;
       z-index: 1000;
-      padding: 0 24px;
+      padding: 0 20px;
       height: 60px;
       display: flex;
       align-items: center;
-      background: rgba(255, 255, 255, 0.7);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border-bottom: 1px solid transparent;
+      background: rgba(255, 255, 255, 0.55);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 0.8px solid transparent;
       transition: all 0.5s ease;
     }
 
